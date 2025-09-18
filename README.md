@@ -18,7 +18,19 @@ It provides users with an intuitive interface to search cities worldwide and vie
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/climate-insights-dashboard.git
+git clone https://github.com/Tanmay-0101/Climate-Insights-Dashboard.git
 cd climate-insights-dashboard
 npm install
 npm run dev
+```
+Visit the app at http://localhost:5173/
+
+## API Key Setup
+- Get your API key from [OpenWeatherMap](https://openweathermap.org/api)
+- Create a .env file in the project root and add:
+ ```bash
+  VITE_API_KEY=your_api_key_here
+  ```
+- Restart the dev server.
+
+## Author- Tanmay Tyagi
