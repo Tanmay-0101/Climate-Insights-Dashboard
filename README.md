@@ -1,12 +1,24 @@
-# React + Vite
+#  Climate Insights Dashboard
+A React + Vite based weather dashboard that fetches real-time climate data using the **OpenWeatherMap API**.  
+It provides users with an intuitive interface to search cities worldwide and view current weather insights in a clean, card-based UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **City-based Search** – Get live weather data for any city worldwide.
+- **Detailed Weather Info** – Temperature, feels like, humidity, min/max values, and condition.
+- **Modern UI** – Built with React, Material UI, and custom CSS for a responsive and polished look.
+- **Favorites Interaction** – Like a city’s weather card with a single click.
+- **Fast Development Setup** – Powered by Vite for lightning-fast HMR and builds.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React, Vite, Material UI  
+- **API:** OpenWeatherMap  
+- **Styling:** CSS (custom + MUI components)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Setup
+Clone the repository and install dependencies:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/<your-username>/climate-insights-dashboard.git
+cd climate-insights-dashboard
+npm install
+npm run dev
