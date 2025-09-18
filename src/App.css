@@ -6,13 +6,39 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+
+  /* Animated gradient text */
+  background: linear-gradient(270deg, #2563eb, #38bdf8, #10b981, #f59e0b, #ef4444);
+  background-size: 1000% 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 12s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;      
-  padding-top: 48px;        
+  align-items: center;     
+  justify-content: flex-start; 
+  padding-top: 48px;       
+  gap: 32px;               
   box-sizing: border-box;
+
+  background: linear-gradient(135deg, #dbeafe, #f9fafb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .search-area {
