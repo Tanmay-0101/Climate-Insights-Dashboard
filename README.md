@@ -33,4 +33,8 @@ Visit the app at http://localhost:5173/
   ```
 - Restart the dev server.
 
-## Author- Tanmay Tyagi
+## Author
+Tanmay Tyagi- [GitHub](https://github.com/Tanmay-0101)
+
+## Live Demo
+[Render](https://climate-insights-dashboard-gekh.onrender.com/)
